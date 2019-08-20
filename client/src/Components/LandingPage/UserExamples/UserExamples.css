@@ -1,0 +1,15 @@
+.story-images {
+    width: 500px;
+    height: auto;
+	padding: 2rem 0;
+}
+
+@media only screen and (max-width: 430px) {
+    .examples {
+        max-width: 400px;
+    }
+
+    img {
+        max-width: 300px;
+    }
+}

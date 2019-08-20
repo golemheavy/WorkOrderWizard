@@ -11,8 +11,52 @@ Built for the desktop experience as well as native mobile. React Native will be 
 
 Depending on our needs during the development process, we may choose to employ Reduct or Context API in order to track application state.
 
+## Installation
+In addition to running npm install in both the root directory of the project and the /client directory of the project, you will also need a .env file with the SKIP-PREFLIGHT-CHECK=true, and with the firebase connection details because firebase is used for login.
+
 ## Deployment
 This will be a cloud-based service. We may choose to utilize an automatically scaling deployment service such as Amazon Elastic Beanstalk.
+
+## Design Documents
+
+### Data Model:
+![Data Structure](./api/wireframe_pics/Data_Structure.jpg)
+
+### Landing Page:
+![Data Structure](./api/wireframe_pics/Landing_Page.jpg)
+
+### Login Modal on Landing Page:
+![Data Structure](./api/wireframe_pics/Login_Page.jpg)
+
+### User's Home Page
+![Data Structure](./api/wireframe_pics/User_Home_Page.jpg)
+
+### Customers Page
+![Data Structure](./api/wireframe_pics/Customers_Page.jpg)
+
+### Single Customer Page
+![Data Structure](./api/wireframe_pics/Single_Customer_Page.jpg)
+
+### Work Orders Page
+![Data Structure](./api/wireframe_pics/Work_Orders_Page.jpg)
+
+### Single Work Order Page
+![Data Structure](./api/wireframe_pics/Single_Work_Order_Page.jpg)
+
+### Invoices Page
+![Data Structure](./api/wireframe_pics/Invoices_Page.jpg)
+
+### Single Invoice Page
+![Data Structure](./api/wireframe_pics/Single_Invoice_Page.jpg)
+
+### Costs Page
+![Data Structure](./api/wireframe_pics/Costs_page.jpg)
+
+### Single Cost Page
+![Data Structure](./api/wireframe_pics/Single_Cost_Page.jpg)
+
+### User Account Management Page
+![Data Structure](./api/wireframe_pics/Account_Page.jpg)
 
 # React README follows:
 
